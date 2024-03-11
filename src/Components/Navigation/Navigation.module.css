@@ -1,0 +1,16 @@
+/* Using CSS Module  and the other is global css and global css we can use anywhere wihtout import statement*/
+
+.navigation{
+    display: flex;
+    align-items: center;
+    padding: 0 8px;
+    height: 72px;
+    justify-content: space-between;
+  }
+  
+  .navigation ul{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+    font-weight: 500;
+  }
